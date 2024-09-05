@@ -1,0 +1,9 @@
+@urunrestapi_HostAddress = https://localhost:7205
+
+GET https://localhost:7205/api/urun
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6InlvbmV0aWNpIiwibmJmIjoxNzI1NTQ5MDMyLCJleHAiOjE3MjU1NTI2MzIsImlhdCI6MTcyNTU0OTAzMiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MjI4IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MjI4In0.GjFhqh7MxYaLF_-YkNpj3SfSBmJpudq3BRGqifuyXZQ
+Content-Type: application/json
+
+
+
+###
