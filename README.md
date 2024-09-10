@@ -3,6 +3,7 @@ CREATE TABLE `urunler` (
   `urunBarkod` varchar(45) NOT NULL,
   `urunIsim` varchar(45) DEFAULT NULL,
   `urunFiyat` decimal(18,2) DEFAULT NULL,
+  `urunIndirim` decimal(18,2) DEFAULT NULL,
   PRIMARY KEY (`urunBarkod`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -34,4 +35,5 @@ GET https://localhost:7205/api/urun
 Authorization: Bearer TOKEN_BURAYA
 Content-Type: application/json
 
-![image](https://github.com/user-attachments/assets/a4a92c0b-4c4b-49d1-96e5-615a2e62a05a)
+![image](https://github.com/user-attachments/assets/dd72da2d-bf61-4d4b-be30-4214ded54335)
+
